@@ -1,0 +1,20 @@
+{
+  "name": "learning-postgresql",
+  "version": "1.0.0",
+  "description": "learning postgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "camel": "nodemon index.js"
+  },
+  "author": "Sultangali Zhumagaliyev <sultanscreed@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
